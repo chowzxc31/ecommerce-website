@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
   padding: 0;
@@ -255,4 +259,9 @@ nav {
   color: white;
   font-weight: 600;
   cursor: pointer;
+}
+
+.productButton:hover {
+  background-color: white;
+  color: black;
 }
